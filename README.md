@@ -1,4 +1,4 @@
-# Welcome to the Scourge Forest
+# Welcome to The Scourge Forest
 
 The Scourge Forest is a Multi-User Dungeon (MUD) built upon the Evennia game engine 
 set in a RPI world with a mixture of action-adventure and hack-n-slash gameplay.
