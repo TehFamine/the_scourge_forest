@@ -220,22 +220,79 @@ CHARACTER_BACKGROUNDS = {
 								  "I'm always taken aback when people haven't heard of me."},
 		 "ideal": {1: "Community. It is the duty of all civilized people to strengthen the bonds of community "
 					  "and the security of civilization.",
-				   2: "Tradition. The stories, legends, and songs of the past must never be forgotten, "
-					  "for they teach us who we are.",
-				   3: "Creativity. The world is in need of new ideas and bold action.",
+				   2: "Generosity. My talents were given to me so that I could use them to benefit the world.",
+				   3: "Freedom. Everyone should be free to pursue his or her own livelihood.",
 				   4: "Greed. I'm only in it for the money and fame. (Evil)",
-				   5: "People. I like seeing the smiles on people's faces when I perform. That's all that matters.",
-				   6: "Honesty. Art should reflect the soul; it should come from within and reveal who we really are."},
-		 "bond": {1: "My instrument is my most treasured possession, and it reminds me of someone I love.",
-				  2: "Someone stole my precious instrument, and someday I'll get it back.",
-				  3: "I want to be famous, whatever it takes.",
-				  4: "I idolize a hero of the old tales and measure my deeds against that person's.",
-				  5: "I will do anything to prove myself superior to my hated rival.",
-				  6: "I would do anything for the other members of my old troupe."},
-		 "flaw": {1: "I'll do anything to win fame and renown.",
-				  2: "I'm a sucker for a pretty face.",
-				  3: "A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.",
-				  4: "I once satirized a noble who still wants my head. It was a mistake that I will likely repeat.",
-				  5: "I have trouble keeping my true feelings hidden. My sharp tongue lands me in trouble.",
-				  6: "Despite my best efforts, I am unreliable to my friends."}},
+				   5: "People. I'm committed to the people I care about, not to ideals.",
+				   6: "Aspiration. I work hard to be the best there is at my craft."},
+		 "bond": {1: "The workshop where I learned my trade is the most important place in the world to me.",
+				  2: "I created a great work for someone, and then found them unworthy to receive it. I'm still "
+					 "looking for someone worthy.",
+				  3: "I owe my guild a great debt for forging me into the person I am today.",
+				  4: "I pursue wealth to secure someone's love.",
+				  5: "One day I will return to my guild and prove that I am the greatest artisan of them all.",
+				  6: "I will get revenge on the evil forces that destroyed my place of business and "
+					 "ruined my livelihood."},
+		 "flaw": {1: "I'll do anything to get my hands on something rare or priceless.",
+				  2: "I'm quick to assume that someone is trying to cheat me.",
+				  3: "No one must ever learn that I once stole money from guild coffers.",
+				  4: "I'm never satisfied with what I have – I always want more.",
+				  5: "I would kill to acquire a noble title.",
+				  6: "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, "
+					 "I'm surrounded by rivals."}},
+
+	"haunted one":
+		{"skills": {"arcana": [True, "int"], "survival": [True, "wis"]},
+		 "equiptment": [],
+		 "languages": [1, lang.LANGUAGES['exotic']],
+		 "proficiences": [],
+		 "traits": ["heart of darkness"],
+		 "belt_pouch": 1000,
+		 "special": {"name": "harrowing event",
+					 1: "A monster that slaughtered dozens of innocent people spared your life, and you don’t know why.",
+					 2: "You were born under a dark star. You can feel it watching you, coldly and distantly. "
+						"Sometimes it beckons you in the dead of night.",
+					 3: "An apparition that has haunted your family for generations now haunts you. You don’t "
+						"know what it wants, and it won’t leave you alone.",
+					 4: "Your family has a history of practicing the dark arts. You dabbled once and felt "
+						"something horrible clutch at your soul, whereupon you fled in terror.",
+					 5: "An oni took your sibling one cold, dark night, and you were unable to stop it.",
+					 6: "You were cursed with lycanthropy and later cured. You are now haunted by the "
+						"innocents you slaughtered.",
+					 7: "A hag kidnapped and raised you. You escaped, but the hag still has a magical hold over "
+						"you and fills your mind with evil thoughts.",
+					 8: "You opened an eldritch tome and saw things unfit for a sane mind. You burned the book, "
+						"but its words and images are burned into your psyche.",
+					 9: "A fiend possessed you as a child. You were locked away but escaped. The fiend is still "
+						"inside you, but now you try to keep it locked away.",
+					 10: "You did terrible things to avenge the murder of someone you loved. You became a "
+						 "monster, and it haunts your waking dreams."},
+		 "personality trait": {1: "I don't run from evil. Evil runs from me.",
+							   2: "I like to read and memorize poetry. It keeps me calm and brings me "
+								  "fleeting moments of happiness.",
+							   3: "I spend money freely and live life to the fullest, knowing that tomorrow I might die.",
+							   4: "I live for the thrill of the hunt.",
+							   5: "	I don’t talk about the thing that torments me. I’d rather not burden "
+								  "others with my curse.",
+							   6: "I expect danger around every corner.",
+							   7: "I refuse to become a victim, and I will not allow others to be victimized.",
+							   8: "I put no trust in divine beings."},
+		 "ideal": {1: "Selflessness. I try to help those in need, no matter what the personal cost.",
+				   2: "Determination. I’ll stop the spirits that haunt me or die trying.",
+				   3: "Greater Good. I kill monsters to make the world a safer place, and to exorcise my own demons.",
+				   4: "Freedom. I have a dark calling that puts me above the law. ",
+				   5: "Logic. I like to know my enemy’s capabilities and weaknesses before rushing into battle.",
+				   6: "Destruction. I’m a monster that destroys other monsters, and anything else that gets in my way."},
+		 "bond": {1: "I keep my thoughts and discoveries in a journal. My journal is my legacy.",
+				  2: "I would sacrifice my life and my soul to protect the innocent.",
+				  3: "My torment drove away the person I love. I strive to win back the love I’ve lost.",
+				  4: "A terrible guilt consumes me. I hope that I can find redemption through my actions.",
+				  5: "There’s evil in me, I can feel it. It must never be set free.",
+				  6: "I have a child to protect. I must make the world a safer place for them."},
+		 "flaw": {1: "I have certain rituals that I must follow every day. I can never break them.",
+				  2: "I assume the worst in people.",
+				  3: "I feel no compassion for the dead. They’re the lucky ones.",
+				  4: "I have an addiction.",
+				  5: "I am a purveyor of doom and gloom who lives in a world without hope.",
+				  6: "I talk to spirits that no one else can see."}},
 }
