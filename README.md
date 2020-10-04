@@ -131,8 +131,9 @@ Your final folder structure should look like this:
 ```
 
 Once you install Evennia, it should install all the dependancies for the game. These
-dependancies will be stored in that virtual environment `tsfv` everytime you activate it. To
-activate and start the MUD, simply type:
+dependancies will be stored in that virtual environment `tsfv` everytime you activate it. 
+That means, everytime you activate your environment, you should be able to access the `evennia`
+command. Test this by activating and starting the MUD as so:
 
 ```
 evennia migrate      # (this creates the database)
